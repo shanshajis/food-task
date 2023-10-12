@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fresh menu</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwcTyaHw4OiK-SconV2qDcTwcNIn1HQ7VPw&usqp=CAU">
+</head>
+<body>
+
+  <!-- nav bar -->
+
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <div class="container-md">
+      <div>
+        <i class="fa-solid fa-bowl-food fs-2 m-2"></i>
+      </div>
+      <a class="navbar-brand text-warning" href="#">Fresh Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navbar-brand active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Filter
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#nonveg">Non-Veg</a></li>
+              <li><a class="dropdown-item" href="#veg">Veg</a></li>
+              <li><a class="dropdown-item" href="#reciepes">Food reciepes</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!-- slide images place -->
+      
+
+    <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="media">
+              
+           <img src="https://images4.alphacoders.com/104/thumb-1920-1048636.jpg" class="d-block w-100" height="577px" alt="...">
+           <div class="carousel-caption d-none d-md-block text-center">
+              <h1 style="color: #cadb57;">FRESH MENU</h1>
+              <h3>Find the best Food in India</h3>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div><hr>
+
+
+      <!-- foods -->
+
+      <div class="container-fluid">
+        <!-- first row  -->
+
+         <section id="nonveg">
+        <div class="row mt-3">
+          <h3>Non-veg</h3><hr>
+      <div class="col-sm-3">
+        
+            <div class="card p-2 m-2">
+              <img src="https://b.zmtcdn.com/data/pictures/9/20402829/c2a753ef85420def563a00863ececf6a.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Laziz Pizza</h5>
+                <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4</p>
+                <p>$500</p>
+                <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card p-2 m-2" >
+              <img src="https://b.zmtcdn.com/data/dish_photos/a6f/06e7fa293a4c250cd9be9845761cba6f.jpg?output-format=webp" class="card-img-top" alt="..." height="100px">
+              <div class="card-body">
+                <h5 class="card-title">Labbaik Chicken Corner</h5>
+                <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                <p>$390</p>
+                <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card p-2 m-2" >
+              <img src="https://b.zmtcdn.com/data/pictures/9/19857789/a34e7ecf56783e907aa1573e084a3412.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Double Cheese Pizza</h5>
+                <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4.6</p>
+                <p>$280</p>
+                <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card p-2 m-2">
+              <img src="https://b.zmtcdn.com/data/pictures/chains/0/19800190/f5af5b5147c6b6d43223f17cfaa69595.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="card-img-top" alt="..." height="100">
+              <div class="card-body">
+                <h5 class="card-title">Peri Peri Double Cheese Pizza</h5>
+                <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>3.4</p>
+                <p>$378</p>
+                <div title="add to cart">
+                <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          <!-- second row -->
+
+          <div class="row mt-3">
+            <hr>
+        <div class="col-sm-3">
+              <div class="card p-2 m-2">
+                <img src="https://b.zmtcdn.com/data/dish_photos/1d9/454c96ab4c7bccfd438f1d4eb61491d9.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                <div class="card-body">
+                  <h5 class="card-title">Shan E Hind</h5>
+                  <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4</p>
+                  <p>$500</p>
+                  <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card p-2 m-2" >
+                <img src="https://b.zmtcdn.com/data/dish_photos/77a/70033edf4e8ade8cab451efae1faa77a.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                <div class="card-body">
+                  <h5 class="card-title">Behrouz Biryani</h5>
+                  <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                  <p>$390</p>
+                  <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card p-2 m-2" >
+                <img src="https://b.zmtcdn.com/data/dish_photos/d79/1bc82946c1c0bebdc084f6a665338d79.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                <div class="card-body">
+                  <h5 class="card-title">KFC</h5>
+                  <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4.6</p>
+                  <p>$280</p>
+                  <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card p-2 m-2">
+                <img src="https://b.zmtcdn.com/data/dish_photos/9ea/a8772eb00653a9cbe2397522851a19ea.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                <div class="card-body">
+                  <h5 class="card-title">Nine to eleven</h5>
+                  <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>3.4</p>
+                  <p>$378</p>
+                  <div title="add to cart">
+                  <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <!-- third row -->
+
+            <div class="row mt-3">
+              <hr>
+          <div class="col-sm-3">
+                <div class="card p-2 m-2">
+                  <img src="https://b.zmtcdn.com/data/dish_photos/989/f27b1c27a1fc1d2ffb7c7af99c002989.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                  <div class="card-body">
+                    <h5 class="card-title">Curry Mahal</h5>
+                    <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4</p>
+                    <p>$500</p>
+                    <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card p-2 m-2" >
+                  <img src="https://b.zmtcdn.com/data/dish_photos/8f1/63e954cffec5ec435f61995aa86d58f1.jpg?output-format=webp" class="card-img-top" alt="..." height="150px">
+                  <div class="card-body">
+                    <h5 class="card-title">Biryani By Kilo</h5>
+                    <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                    <p>$390</p>
+                    <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card p-2 m-2" >
+                  <img src="https://b.zmtcdn.com/data/dish_photos/c6c/b70715bf4fc68aef358a9e5162f9dc6c.jpg" class="card-img-top" alt="..." height="150px">
+                  <div class="card-body">
+                    <h5 class="card-title">The Royal Kitchen</h5>
+                    <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4.6</p>
+                    <p>$280</p>
+                    <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card p-2 m-2">
+                  <img src="https://b.zmtcdn.com/data/dish_photos/9cb/9bd3edfd0a77807f41faa9e2ccc029cb.jpg" class="card-img-top" alt="..." height="150px">
+                  <div class="card-body">
+                    <h5 class="card-title">Madam Mayo</h5>
+                    <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>3.4</p>
+                    <p>$378</p>
+                    <div title="add to cart">
+                    <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <!-- fourth row -->
+
+              <div class="row mt-3">
+                <hr>
+            <div class="col-sm-3">
+                  <div class="card p-2 m-2">
+                    <img src="https://b.zmtcdn.com/data/dish_photos/5c8/c7aa0372c03c2a51dee40500309c55c8.jpg" class="card-img-top" alt="..." height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Big wong</h5>
+                      <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4</p>
+                      <p>$500</p>
+                      <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card p-2 m-2" >
+                    <img src="https://b.zmtcdn.com/data/dish_photos/7d3/0d02b86947ede1a6412be1b64183a7d3.jpg" class="card-img-top" alt="..." height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Bhai Jee Restaurant</h5>
+                      <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                      <p>$390</p>
+                      <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card p-2 m-2" >
+                    <img src="https://b.zmtcdn.com/data/dish_photos/143/a176c8bbb5d52e0f47e4c184ef150143.jpg" class="card-img-top" alt="..." height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Nazeer Foods</h5>
+                      <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4.6</p>
+                      <p>$280</p>
+                      <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="card p-2 m-2">
+                    <img src="https://b.zmtcdn.com/data/dish_photos/5a0/0f9d378a9018a954dd450647324345a0.jpg" class="card-img-top" alt="..." height="150px">
+                    <div class="card-body">
+                      <h5 class="card-title">Stellar Fusion</h5>
+                      <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>3.4</p>
+                      <p>$378</p>
+                      <div title="add to cart">
+                      <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                </div><hr>
+                </section>
+
+                <!-- fifth row -->
+
+                <section id="veg">
+                <div class="row mt-3">
+                  <h3>Vegetarian</h3><hr>
+              <div class="col-sm-3">
+                    <div class="card p-2 m-2">
+                      <img src="https://b.zmtcdn.com/data/pictures/6/900976/fc4727c4102263c551a3c74e14e620b6_o2_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" class="card-img-top" alt="..." height="150px">
+                      <div class="card-body">
+                        <h5 class="card-title">Brindhavan Vegetarian Restaurant</h5>
+                        <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>4</p>
+                        <p>$500</p>
+                        <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card p-2 m-2" >
+                      <img src="https://www.keralatourism.org/images/cuisine/thumb/Ada_Pradhaman20131116144147_15_1.jpg" class="card-img-top" alt="..." height="150px">
+                      <div class="card-body">
+                        <h5 class="card-title">Ada Pradhaman</h5>
+                        <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                        <p>$390</p>
+                        <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card p-2 m-2" >
+                      <img src="https://www.keralatourism.org/images/cuisine/thumb/Appam20131204142055_134_1.jpg" class="card-img-top" alt="..." height="150px">
+                      <div class="card-body">
+                        <h5 class="card-title">Appam</h5>
+                        <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                        <p>$390</p>
+                        <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card p-2 m-2" >
+                      <img src="https://www.keralatourism.org/images/cuisine/thumb/Aviyal20201016081854_1_1.jpg" class="card-img-top" alt="..." height="150px">
+                      <div class="card-body">
+                        <h5 class="card-title">Avial</h5>
+                        <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                        <p>$390</p>
+                        <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+
+                  <!-- sixth row  -->
+
+
+                  <div class="row mt-3">
+                    <hr>
+                    <div class="col-sm-3">
+                      <div class="card p-2 m-2" >
+                        <img src="https://www.keralatourism.org/images/cuisine/thumb/Beetroot_Kichadi20201106151051_184_1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Beetroot Kichadi</h5>
+                          <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                          <p>$390</p>
+                          <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card p-2 m-2" >
+                        <img src="https://www.keralatourism.org/images/cuisine/thumb/Cabbage_Thoran20201106151748_185_1.jpg" class="card-img-top" alt="..." height="150px">
+                        <div class="card-body">
+                          <h5 class="card-title">Cabbage Thoran</h5>
+                          <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                          <p>$390</p>
+                          <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card p-2 m-2" >
+                        <img src="https://www.keralatourism.org/images/cuisine/thumb/Chattipathiri20170227125052_161_1.jpg" class="card-img-top" alt="..." height="150px">
+                        <div class="card-body">
+                          <h5 class="card-title">Chattipathiri</h5>
+                          <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                          <p>$390</p>
+                          <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card p-2 m-2" >
+                        <img src="https://www.keralatourism.org/images/cuisine/thumb/Cherupayar_Thoran20201027114338_178_1.jpg" class="card-img-top" alt="..." height="150px">
+                        <div class="card-body">
+                          <h5 class="card-title">Cherupayar Thoran</h5>
+                          <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                          <p>$390</p>
+                          <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                    </div><hr>
+    
+                    <!-- seventh row -->
+    
+                    <div class="row mt-3">
+                      <div class="col-sm-3">
+                        <div class="card p-2 m-2" >
+                          <img src="https://www.keralatourism.org/images/cuisine/thumb/Chiratta_Puttu_Cheru_Payar20131129112830_59_1.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Chiratta Puttu and Cheru Payar</h5>
+                            <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                            <p>$390</p>
+                            <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card p-2 m-2" >
+                          <img src="https://www.keralatourism.org/images/cuisine/thumb/Erissery20131129135144_119_1.jpg" class="card-img-top" alt="..." height="150px">
+                          <div class="card-body">
+                            <h5 class="card-title">Erissery</h5>
+                            <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                            <p>$390</p>
+                            <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card p-2 m-2" >
+                          <img src="https://www.keralatourism.org/images/cuisine/thumb/Ghee_Rice_Neichoru20131129164144_120_1.jpg" class="card-img-top" alt="..." height="150px">
+                          <div class="card-body">
+                            <h5 class="card-title">Ghee Rice</h5>
+                            <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                            <p>$390</p>
+                            <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card p-2 m-2" >
+                          <img src="https://www.keralatourism.org/images/cuisine/thumb/Idiyappam20201027072307_171_1.jpg" class="card-img-top" alt="..." height="150px">
+                          <div class="card-body">
+                            <h5 class="card-title">Idiyappam</h5>
+                            <p class="card-text"><i class="fa-solid fa-star" style="color: #156d03;"></i>5</p>
+                            <p>$390</p>
+                            <a href="#" class="btn btn-warning ms-5">Add to cart</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div><hr>
+                    </section>
+
+                    <!-- reciepee videos -->
+
+                   <section id="reciepes">
+                    <div class="row">
+                      <h3>Food recipes</h3><hr>
+                      <div class="col-sm-3 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/34tK5lMYP7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-3 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/jjk_qULcnCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-3 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/fqrgFJcqTp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/H7aGRi70wbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                      </div>
+                      <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/mlTS0EiWCjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/2DpQWb1Dk6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/L_HzoV43VU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/D_2JaiLynfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4 m-2">
+                        <iframe width="640" height="315" src="https://www.youtube.com/embed/WeIFfbugJmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                 
+                   <div class="row">
+                    <div class="col-sm-4 m-2"><iframe width="640" height="315" src="https://www.youtube.com/embed/zLfAN5ItrDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                   </div>
+                  
+                   </section>
+                 
+                  </div>
+
+
+
+          <!-- footer  -->
+
+
+          <footer class="bg-light text-center text-white" style="width: 100%;">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+               
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              
+          
+                <!-- Twitter -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #55acee;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #dd4b39;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #ac2bac;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #333333;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2023 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">freshmenu.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          
+
+          
+</body>
+</html>
